@@ -592,24 +592,17 @@ video {
   grid-row: span 2;
 }
 
+.my-big {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .mb-\[32px\] {
   margin-bottom: 32px;
 }
 
-.mt-big {
-  margin-top: 100px;
-}
-
 .mt-trim-small {
   margin-top: 15px;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.mt-box-spacing {
-  margin-top: 20px;
 }
 
 .flex {
@@ -630,11 +623,6 @@ video {
 
 .max-w-\[400px\] {
   max-width: 400px;
-}
-
-.-translate-y-\[-50\%\] {
-  --tw-translate-y: 50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .translate-y-\[-50\%\] {
@@ -683,6 +671,11 @@ video {
   background-color: rgb(18 18 20 / var(--tw-bg-opacity));
 }
 
+.px-large {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .px-trim {
   padding-left: 30px;
   padding-right: 30px;
@@ -691,11 +684,6 @@ video {
 .py-large {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.px-large {
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .text-\[20px\] {
@@ -757,10 +745,6 @@ video {
 @media (max-width: 768px) {
   .max-\[768px\]\:flex {
     display: flex;
-  }
-
-  .max-\[768px\]\:hidden {
-    display: none;
   }
 
   .max-\[768px\]\:flex-col {
